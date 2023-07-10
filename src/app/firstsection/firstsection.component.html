@@ -9,7 +9,7 @@
   </li>-->
 </ul>
   <a class="navbar-brand" href="#">
-    <a href="#home" class="active"><img src="assets/images/pureathleticss.png" width="400" height="30" ></a>
+    <a href="#home" class="active"><img src="assets/images/kaffe-xx.png" width="250" height="60" ></a>
   </a>
   <button class="navbar-toggler" type="button"
           (click)="toggleNavbar()">
@@ -20,26 +20,34 @@
   <div class="collapse navbar-collapse"
        [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav mr-auto">
+      <br>
+      <br>
+      <br>
+
       <li class="nav-item">
-      <a class="nav-link" href="#" routerLink="/start-component" routerLinkActive="active" ariaCurrentWhenActive="page">STARTSEITE</a>
+        <br>
+      <a class="nav-link" href="#" routerLink="/start-component" routerLinkActive="active" ariaCurrentWhenActive="page">Start</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/uberuns-component"  routerLinkActive="active" ariaCurrentWhenActive="page">ÜBER UNS</a>
+        <a class="nav-link" href="#" routerLink="/leistungen-component"  routerLinkActive="active" ariaCurrentWhenActive="page">Leistungen</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/referenzen-component"  routerLinkActive="active" ariaCurrentWhenActive="page">REFERENZEN</a>
+        <a class="nav-link" href="#" routerLink="/uberuns-component"  routerLinkActive="active" ariaCurrentWhenActive="page">Wartung-Serfice</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/leistungen-component"  routerLinkActive="active" ariaCurrentWhenActive="page">LEISTUNGEN</a>
+        <a class="nav-link" href="#" routerLink="/referenzen-component"  routerLinkActive="active" ariaCurrentWhenActive="page">Faq</a>
       </li>
+
+
 
       <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/contact-component"  routerLinkActive="active" ariaCurrentWhenActive="page">KONTAKFORMULAR</a>
+        <a class="nav-link" href="#" routerLink="/contact-component"  routerLinkActive="active" ariaCurrentWhenActive="page">Kontakt</a>
       </li>
 
+      <a routerLink="/ueberuns-component"  routerLinkActive="active" ariaCurrentWhenActive="page"><button class="button button5" >MEHR ERFAHREN</button></a>
       <!--<li class="nav-item">
       <a href="whatsapp://send?abid=phonenumber&text=Hello%2C%20World!"> <img src="assets/icons/whatsapp.png"></a>
         <br>

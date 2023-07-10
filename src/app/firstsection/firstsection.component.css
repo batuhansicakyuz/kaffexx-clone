@@ -3,7 +3,7 @@
     width: 70%;
     padding: 20px;
     display: flex;
-    background-color: #152C42;
+    background-color: white;
     color: white;
   }
 
@@ -93,13 +93,13 @@
   }
 
   .main{
-    background-color: #152C42;
+    background-color: white;
   }
 
 .navbar{
 position: fixed;
 /*right   : 190px;*/
-background-color:#E6BB8E;
+background-color:white;
 width: 100%;
 z-index: 999;
 }
@@ -109,4 +109,18 @@ float: right;
 }
 .menu-spacer {
   flex: 1 1 auto;
+}
+
+.button5 {background-color: ;} /* Black */
+.button {
+  background-color: #FF8730; /* #23303B background color */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
